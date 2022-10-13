@@ -10,7 +10,7 @@ public class GameManager {
         System.out.println(name_of_c1 + " vs. " +name_of_c2+"\n");
         System.out.println(name_of_c1 +": power - "+c1.getPower()+", hp - "+c1.getHp());
         System.out.println(name_of_c2 +": power - "+c2.getPower()+", hp - "+c2.getHp()+"\n");
-        System.out.println(name_of_c1+"starts the fight.\n");
+        System.out.println(name_of_c1+" starts the fight.\n");
         System.out.println("3... 2... 1... Fight!\uD83D\uDE20\n");
         if(c1 instanceof Hobbit && c2 instanceof Hobbit){
             System.out.println("It's a draw. Two Hobbits can't fight.");
