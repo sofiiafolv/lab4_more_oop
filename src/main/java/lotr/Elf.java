@@ -11,7 +11,7 @@ public class Elf extends Character{
             c.setHp(0);
         }
         else{
-            c.setPower(c.getPower() + 1);
+            c.setPower(c.getPower() - 1);
         }
     }
 }
