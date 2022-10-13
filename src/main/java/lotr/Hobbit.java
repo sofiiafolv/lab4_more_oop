@@ -11,7 +11,7 @@ public class Hobbit extends Character {
     }
 
     private void toCry(){
-        System.out.println("\uD83D\uDE22\uD83D\uDE22\uD83D\uDE22");
+        System.out.println("I can't fight. I'm so weak.\uD83D\uDE22\uD83D\uDE22\uD83D\uDE22");
     }
 
 }
